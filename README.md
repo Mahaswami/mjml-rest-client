@@ -39,6 +39,14 @@ To include this library into your project your only need to add the dependency.
 compile "es.atrujillo.mjml:mjml-rest-client:2.0.1"
 ```
 
+**Post JDK 8 Build support**:
+```bash
+# Run the following before build or put in bash profile for automating it
+export JDK_JAVA_OPTIONS='--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED'
+
+```
+
+
 ## Usage
 
 
