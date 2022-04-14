@@ -46,7 +46,7 @@ export JDK_JAVA_OPTIONS='--add-opens=java.base/java.lang=ALL-UNNAMED --add-opens
 
 ```
 
-**How to Build a All in One Jar (including all dependencies) **:
+**How to Build a All in One Jar (including all dependencies)**:
 ```bash
 ./gradlew clean shadowJar
 
